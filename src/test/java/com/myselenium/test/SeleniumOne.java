@@ -32,7 +32,7 @@ public class SeleniumOne {
     @BeforeClass
     public void beforeClass()
     {
-        System.setProperty("webdriver.chrome.driver", "D:\\tools\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         driver=new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(1000,TimeUnit.SECONDS);
         driver.manage().window().maximize();

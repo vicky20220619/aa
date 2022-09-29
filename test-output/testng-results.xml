@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="24278" started-at="2022-09-29T08:01:31Z" finished-at="2022-09-29T08:01:55Z">
+    <groups>
+    </groups>
+    <test name="HCAutoTest" duration-ms="24278" started-at="2022-09-29T08:01:31Z" finished-at="2022-09-29T08:01:55Z">
+      <class name="com.myselenium.test.SeleniumOne">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.myselenium.test.SeleniumOne@19dfb72a]" name="beforeClass" is-config="true" duration-ms="10059" started-at="2022-09-29T16:01:31Z" finished-at="2022-09-29T16:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test01(java.lang.String)[pri:0, instance:com.myselenium.test.SeleniumOne@19dfb72a]" name="test01" duration-ms="8504" started-at="2022-09-29T16:01:41Z" data-provider="searchWords" finished-at="2022-09-29T16:01:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[沉思录]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method status="PASS" signature="test02()[pri:0, instance:com.myselenium.test.SeleniumOne@19dfb72a]" name="test02" duration-ms="1017" started-at="2022-09-29T16:01:50Z" finished-at="2022-09-29T16:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="test03()[pri:0, instance:com.myselenium.test.SeleniumOne@19dfb72a]" name="test03" duration-ms="4510" started-at="2022-09-29T16:01:51Z" finished-at="2022-09-29T16:01:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.myselenium.test.SeleniumOne@19dfb72a]" name="afterClass" is-config="true" duration-ms="167" started-at="2022-09-29T16:01:55Z" finished-at="2022-09-29T16:01:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.myselenium.test.SeleniumOne -->
+    </test> <!-- HCAutoTest -->
+  </suite> <!-- Default Suite -->
+</testng-results>

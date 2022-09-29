@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test name="HCAutoTest(failed)">
+    <classes>
+      <class name="com.myselenium.test.SeleniumOne">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="test01" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.myselenium.test.SeleniumOne -->
+    </classes>
+  </test> <!-- HCAutoTest(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
